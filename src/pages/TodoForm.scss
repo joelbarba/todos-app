@@ -1,0 +1,20 @@
+.todo-form {
+  margin-top: 50px;
+  border: 1px solid gray;
+  padding: 10px 15px;
+
+  label { 
+    margin: 15px 0;
+    display: flex;
+    align-items: start;
+    span { flex: 1; text-align: right; margin-right: 10px; }
+    input, textarea, select { flex: 4; }
+  }
+  input[type="submit"], button {
+    margin-top: 20px;
+    display: inline-block;
+    width: calc(50% - 5px);
+    padding: 4px 10px;
+  }
+  button { margin-right: 10px; }
+}

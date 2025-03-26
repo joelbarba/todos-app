@@ -1,0 +1,16 @@
+body {
+  // text-align: center;
+}
+
+.todos li {
+  margin: 10px 0;
+  label { cursor: pointer; }  
+  input[type="checkbox"] {
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  &:hover {
+    background: lightyellow;
+  }
+  .edit-btn { margin-left: 40px; }
+}
