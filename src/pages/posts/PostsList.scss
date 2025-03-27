@@ -1,0 +1,15 @@
+.posts {
+  margin-top: 15px;
+  display: flex;
+  .post {
+    border: 1px solid black;
+    padding: 20px 30px;
+    margin: 10px 20px 10px 0;
+    border-radius: 5px;
+    background-color: lightyellow;
+  }
+}
+.add-btn {
+  padding: 4px 15px;
+  cursor: pointer;
+}

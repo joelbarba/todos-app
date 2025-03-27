@@ -2,7 +2,7 @@ import { useReducer, useState } from 'react';
 import { initialTodos, reducer } from './reducer';
 import TodoForm from './TodoForm';
 
-function Todos() {
+export default function Todos() {
   const [todos, dispatch] = useReducer(reducer, initialTodos);
   const [selTodo, setSelTodo] = useState(null);
 
@@ -49,4 +49,7 @@ function Todos() {
   );
 }
 
-export default Todos;
+// export default Todos;
+
+
+
